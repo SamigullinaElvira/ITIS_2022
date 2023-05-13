@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21678"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GestureRecognizers" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="capybara" translatesAutoresizingMaskIntoConstraints="NO" id="W5n-Hh-B1e">
+                                <rect key="frame" x="0.0" y="109" width="393" height="450"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="450" id="eJY-Z9-5H0"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mr. Capybara" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zHD-mv-adY">
+                                <rect key="frame" x="16" y="567" width="361" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="square.and.arrow.up" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="cM6-yz-VZy" customClass="MyImageView" customModule="GestureRecognizers" customModuleProvider="target">
+                                <rect key="frame" x="345" y="132" width="32" height="32.666666666666686"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="32" id="WIH-BJ-t94"/>
+                                    <constraint firstAttribute="width" constant="32" id="dc8-H3-kAZ"/>
+                                </constraints>
+                            </imageView>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="9zk-W0-5Vh">
+                                <rect key="frame" x="0.0" y="596" width="393" height="222"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IVG-9p-sX7">
+                                        <rect key="frame" x="0.0" y="8" width="393" height="1075.3333333333333"/>
+                                        <string key="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="IVG-9p-sX7" firstAttribute="bottom" secondItem="mHQ-pa-iEF" secondAttribute="bottom" id="4eG-e2-6CJ"/>
+                                    <constraint firstItem="IVG-9p-sX7" firstAttribute="width" secondItem="9zk-W0-5Vh" secondAttribute="width" id="EC2-ti-2TJ"/>
+                                    <constraint firstItem="IVG-9p-sX7" firstAttribute="leading" secondItem="mHQ-pa-iEF" secondAttribute="leading" id="JUe-On-ULB"/>
+                                    <constraint firstItem="IVG-9p-sX7" firstAttribute="top" secondItem="mHQ-pa-iEF" secondAttribute="top" constant="8" id="Mpp-4q-qm7"/>
+                                    <constraint firstItem="IVG-9p-sX7" firstAttribute="trailing" secondItem="mHQ-pa-iEF" secondAttribute="trailing" id="Zm6-8w-L36"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="mHQ-pa-iEF"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="tzD-bK-mvZ"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="W5n-Hh-B1e" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="2zg-4u-MFF"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="cM6-yz-VZy" secondAttribute="trailing" constant="16" id="4H8-M4-OxL"/>
+                            <constraint firstItem="zHD-mv-adY" firstAttribute="top" secondItem="W5n-Hh-B1e" secondAttribute="bottom" constant="8" symbolic="YES" id="Dn2-Er-PPU"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="zHD-mv-adY" secondAttribute="trailing" constant="16" id="FIR-aL-Wjg"/>
+                            <constraint firstItem="9zk-W0-5Vh" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="PBt-CK-ZaO"/>
+                            <constraint firstItem="9zk-W0-5Vh" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Qs7-qb-gCn"/>
+                            <constraint firstItem="9zk-W0-5Vh" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RmQ-vU-6jR"/>
+                            <constraint firstItem="9zk-W0-5Vh" firstAttribute="top" secondItem="zHD-mv-adY" secondAttribute="bottom" constant="8" symbolic="YES" id="Vtn-He-yOw"/>
+                            <constraint firstItem="cM6-yz-VZy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="74" id="d2z-jX-wKY"/>
+                            <constraint firstItem="zHD-mv-adY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="g4E-bU-4qk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="W5n-Hh-B1e" secondAttribute="trailing" id="kHn-9H-gNm"/>
+                            <constraint firstItem="W5n-Hh-B1e" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="vZe-eY-TVA"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="W5n-Hh-B1e" id="XKz-NQ-dQR"/>
+                        <outlet property="label" destination="IVG-9p-sX7" id="NMp-0D-eA9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="61.832061068702288" y="4.9295774647887329"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="capybara" width="612" height="450"/>
+        <image name="square.and.arrow.up" catalog="system" width="115" height="128"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
