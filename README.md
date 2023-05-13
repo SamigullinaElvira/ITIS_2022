@@ -27,3 +27,5 @@
 208. [SwiftUI. Начало](/208)
 209. [SwiftUI. Data flow: ObservableObject, @ObservedObject, @State, @Binding, @Environment, @EnvironmentObject](/209)
 210. [SwiftUI. Navigation. Взаимодействие с UIKit](/210)
+211. [SwiftUI. Бонусный материал (Grid, ViewThatFits, GeometryReader)](/211)
+212. [Gesture Recognizers. RunLoop. Timer](/212)
