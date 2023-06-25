@@ -1,0 +1,19 @@
+//
+//  AppDelegate.swift
+//  inst
+//
+//  Created by Эльвира Самигуллина on 19.11.2022.
+//
+
+import UIKit
+
+@main
+class AppDelegate: UIResponder, UIApplicationDelegate {
+    func application(
+        _ application: UIApplication,
+        didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?
+    ) -> Bool {
+        return true
+    }
+}
+
